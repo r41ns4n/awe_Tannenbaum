@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    >
+
+    <EditText
+        android:id="@+id/et_treeheight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_treeheight"
+        android:inputType="number"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btn_draw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:padding="30dp"
+        android:text="@string/btn_draw" />
+
+
+
+    <TextView
+        android:id="@+id/tv_tree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:hint="@string/tv_tree"
+        android:layout_below="@id/btn_draw"
+        android:textColor="#168016"
+        android:textSize="25dp"
+        android:scrollbars="vertical"
+        android:letterSpacing="0.3"
+        />
+
+</RelativeLayout>

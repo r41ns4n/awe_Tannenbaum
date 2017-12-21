@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tannenbaunm</string>
+
+    <string name="btn_draw">Zeichnen</string>
+    <string name="btn_new">Neu</string>
+    <string name="et_treeheight">Bitte eine Höhe eingeben</string>
+    <string name="tv_tree">Hier wird ihr Baum dann gezeichnet</string>
+</resources>
